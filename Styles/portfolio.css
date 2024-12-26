@@ -1,15 +1,28 @@
+:root {
+  --heading-font-family: "Playfair Display", serif;
+}
+body {
+  background: #f9f7fe;
+}
 h1 {
-  font-family: "Playfair Display", serif;
+  font-size: 96px;
+}
+h2 {
+  font-size: 36px;
+}
+h1,
+h2 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
 }
 .hero {
-  background: #f9f7fe;
-  text-align: center;
   margin-top: 90px;
-  margin-bottom: 70px;
+  text-align: center;
 }
 
 .hero p {
   font-weight: bold;
+  font-size: 36px;
 }
 
 .contact {
@@ -18,4 +31,8 @@ h1 {
   padding: 15px;
   border-radius: 5px;
   border: none;
+}
+
+.contact:hover {
+  font-weight: bold;
 }
